@@ -2,11 +2,7 @@ function dwarfRollCall(dwarves) {
   var numberedDwarves = ''
   
   for (var i = 0; i < dwarves.length; i++) {
-<<<<<<< HEAD
     numberedDwarves += `${i+1}. ${dwarves[i]} `
-=======
-    numberedDwarves += `${i+1}. ${dwarves[i]}`
->>>>>>> 9a391c880357e780ffe72d6b1c1da022bdf9d504
   }
 
   return `${numberedDwarves}`
