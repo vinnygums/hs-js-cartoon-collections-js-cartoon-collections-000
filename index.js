@@ -31,7 +31,6 @@ function findTheCheese (foods) {
   
   for (var i = 0; i < foods.length; i++) {
     for(var b = 0; b < typesOfCheese.length; b++) {
-<<<<<<< HEAD
       if (foods[i] === typesOfCheese[b]) {
           return foods[i]
       }
@@ -39,13 +38,4 @@ function findTheCheese (foods) {
       } return "no cheese!"
       } 
       
-=======
-      if (foods[i] != typesOfCheese[b]) {
-        return "no cheese!"
-      } else {
-        return foods[i]
-      }
-      } 
-      }
-    }
->>>>>>> 9a391c880357e780ffe72d6b1c1da022bdf9d504
+
