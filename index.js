@@ -27,7 +27,7 @@ function longPlaneteerCalls(words) {
 }
 
 function findTheCheese (foods) {
-  var typesOfCheese = ["cheddar", "gouda", "camembert"]
+  var typesOfCheese = ["cheddar", "gouda", "camembert", "american"]
   
   for (var i = 0; i < foods.length; i++) {
     for(var b = 0; b < typesOfCheese.length; b++) {
@@ -38,4 +38,13 @@ function findTheCheese (foods) {
       } return "no cheese!"
       } 
       
+      function wordsWithB(words) {
+        var withThatStartWithB = []
+        for (var i = 0; i < words.length; i++) {
+          if (words[i].startsWith("b")) {
+            withThatStartWithB.push(words[i])
+          }
+        } return withThatStartWithB
+      }
 
+Sally Bob Billy
